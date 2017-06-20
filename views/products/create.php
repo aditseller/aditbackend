@@ -1,4 +1,5 @@
 <script type="text/javascript" src="<?= Yii::$app->homeUrl ?>/public/js/jquery.min.js"></script>
+<script>tinymce.init({ selector:'textarea' });</script>
 <?php
 
 use yii\helpers\Html;

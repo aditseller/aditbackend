@@ -10,6 +10,7 @@ $this->params['breadcrumbs'][] = ['label' => 'Products', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id_product, 'url' => ['view', 'id' => $model->id_product]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
+<script>tinymce.init({ selector:'textarea' });</script>
 <div class="products-update">
 
     <h1><?= Html::encode($this->title) ?></h1>

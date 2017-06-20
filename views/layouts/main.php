@@ -20,7 +20,9 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-</head>
+    <script src="<?= Yii::$app->request->baseUrl ?>/public/js/tinymce/tinymce.min.js"></script>
+    <script src="<?= Yii::$app->request->baseUrl ?>/public/js/tinymce/jquery.tinymce.min.js"></script>
+    </head>
 <body>
 <?php $this->beginBody() ?>
 
